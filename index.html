@@ -12,19 +12,19 @@
         <title>Web Design</title>
         <style>
             body{
-                background: #442460;
-                background-image: url('img/Bunny2.png');
-                background-repeat: no-repeat;
-                background-position: 280px 772px;
+                background-image:url('img/Bunny2.png'), url("img/p1.png") ,url("img/p3.png");
+                background-repeat:no-repeat, no-repeat, no-repeat;
+                background-size:auto, 2000px 650px, 2000px 800px;
+                background-position:280px 772px, -5px -5px, 0px 300px;                
             }
             header{
                 height: 130px;
             }          
             .a_main{
-                height: 900px;
+                min-height: 900px;
             }
             footer{
-                height: 320px;
+                min-height: 320px;
             }
             .a_header_nav > li > a{
                 padding: 61px 32px 20px 32px;
@@ -103,7 +103,7 @@
               <p>How can we help you?</p>
               <p>Get started with ideal to manage your projects, clients and stakeholders</p>
               <div class="row m-0">
-                <div class="col ">
+                <div class="col-12 col-sm-3 mb-3 ">
                   <div class="rounded rounded-3 a_panel a_panel1 p-2">
                     <img src="img/launch.png">
                     <h4 class="mb-4">Innovation Decision Hub</h4>
@@ -111,13 +111,13 @@
                     <a href="#" class="float-end text-white text-decoration-none">Learn More <i class="fa-solid fa-chevron-right ms-1"></i></a>
                   </div>
                 </div>
-                <div class="col ">
+                <div class="col-12 col-sm-3 mb-3">
                   <div class="rounded rounded-3 a_panel a_panel2">A</div>
                 </div>
-                <div class="col ">
+                <div class="col-12 col-sm-3 mb-3">
                   <div class="rounded rounded-3 a_panel a_panel3">A</div>
                 </div>
-                <div class="col ">
+                <div class="col-12 col-sm-3 mb-3">
                   <div class="rounded rounded-3 a_panel a_panel4">A</div>
                 </div>
               </div>
